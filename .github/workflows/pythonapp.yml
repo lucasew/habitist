@@ -2,7 +2,7 @@ name: habitist
 
 on:
   schedule:
-    - cron: '0 19 * * *'
+    - cron: '0 3 * * *' # Default timezone is GMT-0, here is GMT-3
 
 jobs:
   build:
